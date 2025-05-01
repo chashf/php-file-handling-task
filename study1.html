@@ -1,0 +1,29 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Halaman</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Study Case 1 | Form Ganti Tag HTML</h2>
+    <form action="proses.php" method="post">
+        <label>Nama File HTML Anda:
+            <input type="text" name="filename" required>
+        </label><br><br>
+
+        <label>Tag Awal:
+            <input type="text" name="tag_lama" required>
+        </label><br><br>
+
+        <label>Tag Baru:
+            <input type="text" name="tag_baru" required>
+        </label><br><br>
+
+        <label>Tipe Keluaran (O/N):
+            <input type="text" name="output" maxlength="1" required>
+        </label><br><br>
+
+        <input type="submit" value="Proses">
+    </form>
+</body>
+</html>
